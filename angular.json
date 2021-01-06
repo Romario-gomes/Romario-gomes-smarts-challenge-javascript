@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "challenge"
+  "defaultProject": "challenge",
+  "cli": {
+    "analytics": "dc43db75-1edd-424d-aad7-634696f23d65"
+  }
 }

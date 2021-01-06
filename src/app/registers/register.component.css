@@ -1,0 +1,7 @@
+.form-component-register{
+  display:flex;
+  justify-content: center;
+}
+.label-register{
+  line-height: 40px;
+}

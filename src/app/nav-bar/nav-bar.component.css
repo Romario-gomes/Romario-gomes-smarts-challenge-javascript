@@ -1,0 +1,22 @@
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.nav-bar{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+   border-radius: 0px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+span{
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 24px;
+}
