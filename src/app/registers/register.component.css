@@ -5,3 +5,58 @@
 .label-register{
   line-height: 40px;
 }
+.main-register{
+  display: flex;
+}
+.content{
+  width: 75%;
+  min-height: 300px;
+
+  margin: auto;
+  box-shadow: 0 0 0.3em #222;
+}
+.content .input-header{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+.content input{
+  width: 40px;
+  margin: 10px 10px 0px 0px;
+
+}
+.register-content{
+  display: flex;
+  width: 85%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #444;
+}
+.photo-register{
+  padding-left: 15px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photo-register img{
+  border-radius: 50%;
+}
+.data-register{
+  padding-right: 15px;
+  padding-top: 10px;
+  flex: 7;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.data-register ul{
+  list-style: none;
+  padding-left: 15px;
+}
+.buttons-register{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
