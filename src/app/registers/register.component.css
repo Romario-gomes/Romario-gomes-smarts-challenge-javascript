@@ -11,6 +11,8 @@
 .content{
   width: 75%;
   min-height: 300px;
+  max-height: 450px;
+  overflow: auto;
   margin: auto;
   box-shadow: 0 0 0.3em #222;
 }
@@ -57,9 +59,5 @@
 .buttons-register{
   display: flex;
   justify-content: center;
-  margin-bottom: 15px;
-}
-.main-content{
-  max-height: 450px;
-  overflow: auto;
+  margin: 15px 0px;
 }

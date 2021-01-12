@@ -1,11 +1,9 @@
 export class Register {
     id: number | undefined;
-    name: string | undefined;
     imageUrl!: string;
-    price!: number;
-    code!: string;
-    duration!: number;
-    rating!: number;
+    name: string | undefined;
+    email!: string;
+    budget!: number;
+    age!: number;
     releaseDate!: string;
-    description!: string;
 }
